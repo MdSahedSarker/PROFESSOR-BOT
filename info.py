@@ -17,7 +17,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
 WEB_SUPPORT = bool(environ.get("WEBHOOK", 'True')) # for web support on/off
-PICS = (environ.get('https://envs.sh/zjQ.mp4').split()
+PICS = (environ.get('PICS' ,'https://envs.sh/zjQ.mp4')).split()
 UPTIME = time.time()
 
 # Admins, Channels & Users
